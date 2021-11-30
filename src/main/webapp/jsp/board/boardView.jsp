@@ -39,25 +39,11 @@
 			</tr>
 		</table>
 		
-		<!-- 
 		<br> <br> 
-		검색 여부 : ${searchYN}<br>
-		검색 VO : ${searchVO}<br>
-		-->
 		
-		<!-- 이전 페이지 이동 : 추가 -->
-		<!-- 검색이 아닌 경우 -->		
-		<c:if test="${searchYN == 'N'}">
-			<input type="button" class="btn btn-primary mr-3" value="이전 페이지"
-				onclick="location.href='${contextPath}/board/board_list.do?page=${page}'">
-		</c:if>
-		
-		<!-- 검색인 경우 -->		
-		<c:if test="${searchYN == 'Y'}">
-			<input type="button" class="btn btn-primary mr-3" value="이전 페이지"
-				onclick="location.href='${contextPath}/board/board_search_list.do?search_page=${page}&search_kind=${searchVO.searchKind}&search_word=${searchVO.searchWord}'">
-		</c:if>
-			
+		<!-- 이전 페이지 이동 : 추가 -->		
+		<input type="button" class="btn btn-primary mr-3" value="이전 페이지"
+			onclick="location.href='${contextPath}/board/board_list.do?page=${page}'">
 		<input type="button" class="btn btn-primary mr-3" value="게시글 수정"
 			onclick="open_win('${contextPath}/board/board_check_pass_form.do?num=${board.num}', 'update')">
 		<input type="button" class="btn btn-primary mr-3" value="게시글 삭제"

@@ -14,7 +14,7 @@
 	<div id="wrap" class="container mx-auto w-80 mt-5"><!--  align="center"> -->
 		
 		<div align="center">
-			<h1>게시글 검색 리스트</h1>
+			<h1>게시글 리스트</h1>
 		</div>
 		
 		<div class="mx-auto my-3" align="right">
@@ -34,7 +34,7 @@
 				<tr class="record">
 					<td>${board.num}</td>
 					<td>
-						<a href="${contextPath}/board/board_view.do?num=${board.num}&page=${pageDTO.page}&search_kind=${searchVO.searchKind}&search_word=${searchVO.searchWord}&search_YN=Y">
+						<a href="${contextPath}/board/board_view.do?num=${board.num}&page=${page}">
 							${board.title} 
 						</a>
 					</td>
@@ -107,7 +107,7 @@
 			
 			<!-- 게시글 목록 버튼 -->
 			<button type="button" id="members_list_btn" class="btn btn-primary"
-				onclick="location.href='${contextPath}/board/board_list.do'">게시글 목록</button>
+				onclick="location.href='${contextPath}/board/board_list&page=1'">게시글 목록</button>
 			<!--// 게시글 목록 버튼 -->
 			
 		</form>

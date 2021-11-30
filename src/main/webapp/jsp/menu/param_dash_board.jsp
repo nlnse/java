@@ -41,15 +41,6 @@
           		<tr>
           			<td>게시판 페이징 (마지막 페이지) : </td><td>${last_page}</td>
           		</tr>
-          		<tr>
-          			<td>"검색" VO : </td><td>${searchVO}</td>
-          		</tr>
-          		<tr>
-          			<td>"검색" 게시판 페이징 (현재 페이지) : </td><td>${pageDTO.page}</td>
-          		</tr>
-          		<tr>
-          			<td>"검색" 게시판 페이징 (마지막 페이지) : </td><td>${pageDTO.lastPage}</td>
-          		</tr>
           	</table>          
         </div>
         
