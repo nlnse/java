@@ -123,8 +123,9 @@ div.HStyle17
 <P CLASS=HStyle0><h3>- 프로젝트 로드맵(Roadmap)</h3></P>
 <img src="https://github.com/nlnse/java/blob/main/show/roadmap.PNG">
 <br>
-<P CLASS=HStyle0><h3>- 프로젝트 예시(Example)</h3></P>
-<img src="https://github.com/nlnse/java/blob/main/show/result1.PNG">
+<P CLASS=HStyle0><h3>- 프로젝트
+	예시(Example)</h3></P>
+<img src="https://github.com/nlnse/java/blob/main/show/result1.png">
 <br>
 <img src="https://github.com/nlnse/java/blob/main/show/result2.PNG">
 <br>
